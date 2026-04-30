@@ -1,7 +1,7 @@
 #!/bin/bash
-#SBATCH --job-name=test_gpu
-#SBATCH --output=results/test_gpu_%j.out
-#SBATCH --error=results/test_gpu_%j.err
+#SBATCH --job-name=train_gr00t
+#SBATCH --output=results/train_gr00t_%j.out
+#SBATCH --error=results/train_gr00t_%j.err
 #SBATCH --gres=gpu
 #SBATCH --partition=v100
 #SBATCH --mail-user=cris.lima.froes@gmail.com
