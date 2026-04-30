@@ -1,0 +1,21 @@
+grasp_result:
+  gripper_location:
+  - -0.13904521395380887
+  - 0.03153844999280879
+  - -0.07380212662272337
+  gripper_orientation:
+    w: 0.8223546321643522
+    xyz:
+    - 0.3738288652583851
+    - 0.37382886525838543
+    - 0.21032550477079426
+  gripper_path: /World/xarm_gripper
+  joint_states:
+    joints/drive_joint: 35.03542709350586
+    joints/left_finger_joint: 36.322872161865234
+    joints/left_inner_knuckle_joint: 34.537994384765625
+    joints/right_finger_joint: 36.24639129638672
+    joints/right_inner_knuckle_joint: 34.538673400878906
+    joints/right_outer_knuckle_joint: 31.087827682495117
+    root_joint: 0.0
+  object_path: /World/_06_mustard_bottle

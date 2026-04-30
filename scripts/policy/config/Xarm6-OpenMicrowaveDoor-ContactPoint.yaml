@@ -1,0 +1,66 @@
+robot_type: xarm6
+default_task: PickTomatoSoupCan
+task_description: open the microwave door
+features:
+  observation.images.wrist:
+    dtype: video
+    shape: [256, 256, 3]
+    names: ["height", "width", "channel"]
+    video_info:
+      video.fps: 30.0
+      video.codec: h264
+      video.pix_fmt: yuv420p
+      video.is_depth_map: false
+      has_audio: false
+  observation.images.top:
+    dtype: video
+    shape: [256, 256, 3]
+    names: ["height", "width", "channel"]
+    video_info:
+      video.fps: 30.0
+      video.codec: h264
+      video.pix_fmt: yuv420p
+      video.is_depth_map: false
+      has_audio: false
+  observation.state:
+    dtype: float32
+    shape: (11,)
+    names:
+      - px
+      - py
+      - pz
+      - qw
+      - qx
+      - qy
+      - qz
+      - gripper
+      - contact_px
+      - contact_py
+      - contact_pz
+  action:
+    dtype: float32
+    shape: (7,)
+    names:
+      - x
+      - y
+      - z
+      - roll
+      - pitch
+      - yaw
+      - gripper
+  episode_index:
+    dtype: int64
+    shape: [1]
+    names: null
+  frame_index:
+    dtype: int64
+    shape: [1]
+    names: null
+  index:
+    dtype: int64
+    shape: [1]
+    names: null
+  task_index:
+    dtype: int64
+    shape: [1]
+    names: null

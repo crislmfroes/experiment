@@ -1,0 +1,21 @@
+grasp_result:
+  gripper_location:
+  - 0.18859809054756282
+  - 0.07898501548081925
+  - -0.006948847646064679
+  gripper_orientation:
+    w: 0.5268459810528765
+    xyz:
+    - -0.4892362375712762
+    - -0.4892362375712761
+    - 0.4936892949443362
+  gripper_path: /World/xarm_gripper
+  joint_states:
+    joints/drive_joint: 19.502737045288086
+    joints/left_finger_joint: 21.243953704833984
+    joints/left_inner_knuckle_joint: 18.657329559326172
+    joints/right_finger_joint: 19.048057556152344
+    joints/right_inner_knuckle_joint: 17.833660125732422
+    joints/right_outer_knuckle_joint: 15.537091255187988
+    root_joint: 0.0
+  object_path: /World/_03_cracker_box

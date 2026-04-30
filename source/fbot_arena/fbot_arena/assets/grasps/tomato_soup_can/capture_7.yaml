@@ -1,0 +1,21 @@
+grasp_result:
+  gripper_location:
+  - 0.17155586328534278
+  - 0.03280925982067664
+  - -0.012594175059099804
+  gripper_orientation:
+    w: 0.5204450159932488
+    xyz:
+    - -0.4797711668004938
+    - -0.4797711668004937
+    - 0.5184363416482038
+  gripper_path: /World/xarm_gripper
+  joint_states:
+    joints/drive_joint: 26.370927810668945
+    joints/left_finger_joint: 28.32789421081543
+    joints/left_inner_knuckle_joint: 25.632064819335938
+    joints/right_finger_joint: 27.918045043945312
+    joints/right_inner_knuckle_joint: 25.632795333862305
+    joints/right_outer_knuckle_joint: 20.793514251708984
+    root_joint: 0.0
+  object_path: /World/_05_tomato_soup_can
