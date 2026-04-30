@@ -6,11 +6,12 @@
 #SBATCH --partition=v100
 #SBATCH --mail-user=cris.lima.froes@gmail.com
 #SBATCH --mail-type=ALL
-#module load uv
+
 git clone https://github.com/NVIDIA/Isaac-GR00T.git
 git clone https://huggingface.co/datasets/crislmfroes/xarm6-sim-pose-cond-v4-pose-rand_v2.0
 git clone https://github.com/crislmfroes/experiment.git
 cd Isaac-GR00T
+curl -LsSf https://astral.sh/uv/install.sh | sh
 uv sync --python 3.10
 uv run python \
     gr00t/experiment/launch_finetune.py \
