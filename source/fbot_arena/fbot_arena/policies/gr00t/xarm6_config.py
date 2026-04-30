@@ -24,7 +24,7 @@ xarm6_config = {
         modality_keys=[
             "single_arm",
             "gripper",
-            "object_pose"
+            #"object_pose"
         ],
     ),
     # Action: 16-step prediction horizon; each key needs an ActionConfig
